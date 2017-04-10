@@ -1,0 +1,144 @@
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\ApplicationInsights.config
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\roslyn\csc.exe
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\roslyn\vbc.exe
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\ExcelApp.dll.config
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\ExcelApp.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\ExcelApp.pdb
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\Microsoft.AI.Web.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\System.Web.Helpers.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\System.Web.Mvc.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\System.Web.Razor.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\System.Web.Webpages.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\Microsoft.AI.Web.xml
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\System.Web.Razor.xml
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\System.Web.Webpages.xml
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\System.Web.Helpers.xml
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\System.Web.Mvc.xml
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\obj\Debug\ExcelApp.csprojResolveAssemblyReference.cache
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\obj\Debug\ExcelApp.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\obj\Debug\ExcelApp.pdb
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\EPPlus.dll
+C:\Users\JoyIBusiness\Documents\Visual Studio 2015\Projects\ExcelApp\ExcelApp\bin\EPPlus.xml
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\ApplicationInsights.config
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\roslyn\csc.exe
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\roslyn\vbc.exe
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\ExcelApp.dll.config
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\ExcelApp.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\ExcelApp.pdb
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\EPPlus.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.Web.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\System.Web.Helpers.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\System.Web.Mvc.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\System.Web.Razor.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\System.Web.Webpages.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\EPPlus.xml
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.Web.xml
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\System.Web.Razor.xml
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\System.Web.Webpages.xml
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\System.Web.Helpers.xml
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\bin\System.Web.Mvc.xml
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\obj\Debug\ExcelApp.csprojResolveAssemblyReference.cache
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\obj\Debug\ExcelApp.dll
+C:\Users\ดิศราพร\Downloads\ExcelApp\ExcelApp\obj\Debug\ExcelApp.pdb
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\ApplicationInsights.config
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\roslyn\csc.exe
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\roslyn\vbc.exe
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\ExcelApp.dll.config
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\ExcelApp.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\ExcelApp.pdb
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\EPPlus.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.Web.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\System.Web.Helpers.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\System.Web.Mvc.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\System.Web.Razor.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\System.Web.Webpages.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\EPPlus.xml
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.Web.xml
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\System.Web.Razor.xml
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\System.Web.Webpages.xml
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\System.Web.Helpers.xml
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\bin\System.Web.Mvc.xml
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\obj\Debug\ExcelApp.csprojResolveAssemblyReference.cache
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\obj\Debug\ExcelApp.dll
+C:\Users\JoyIBusiness\Downloads\ExcelApp\ExcelApp\obj\Debug\ExcelApp.pdb
