@@ -16,6 +16,15 @@
         <li><a href="http://localhost:57733/Home/GridResults">GridResults</a></li>
     </ul>
 </div>
+
+
+@using (Html.BeginForm("ImportExcel", "Home", FormMethod.Post, new { enctype = "multipart/form-data"}))
+{
+    <input type="file" name="file" />
+    <button>Upload</button>
+    <p>@ViewBag.Error</p>
+}
+
     
 
 

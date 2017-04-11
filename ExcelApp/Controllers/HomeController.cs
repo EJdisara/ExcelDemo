@@ -7,6 +7,7 @@ using OfficeOpenXml;
 using OfficeOpenXml.Style;
 using System.Drawing;
 using ExcelApp.Models;
+using System.IO;
 
 namespace ExcelApp.Controllers
 {
@@ -963,6 +964,51 @@ namespace ExcelApp.Controllers
             }
         }
 
-        
+        public ActionResult ImportExcel(HttpPostedFileBase file)
+        {
+            if (file != null && file.ContentLength > 0)
+            {
+                if(Path.GetExtension(file.FileName) == ".xlsx")
+                {
+                    string filename = file.FileName;
+                    string path = Server.MapPath("~/Upload/");
+                    file.SaveAs(path + filename);
+                    
+
+                    List<Subclass> s = new List<Subclass>();
+                    using (var package = new ExcelPackage(file.InputStream))
+                    {
+                        ExcelWorksheet ws = package.Workbook.Worksheets.First();
+                        int row = 5;
+                        for (row = 5; row <= ws.Dimension.End.Row; row++)
+                        {
+                            Subclass sub = new Subclass()
+                            {
+                                APO_SUBCLASS = Convert.ToInt64(ws.Cells[row, 1].Value),
+                                APO_SUBCLASS_NAME = Convert.ToString(ws.Cells[row, 2].Value),
+                                MARKET_DATA_SUBCATEGORY = Convert.ToString(ws.Cells[row, 3].Value),
+                                MARKET_DATA_CATEGORY = Convert.ToString(ws.Cells[row, 4].Value)
+                            };
+                            s.Add(sub);
+                        }
+                    }
+                    ViewBag.Error = null;
+                    return View("Index");
+                }
+                else
+                {
+                    ViewBag.Error = "Not excel file!!";
+                    return View("Index");
+                }
+                
+            }
+            else
+            {
+                ViewBag.Error = "select file !!";
+                return View("Index");
+            }
+            
+        }
+
     }
 }
