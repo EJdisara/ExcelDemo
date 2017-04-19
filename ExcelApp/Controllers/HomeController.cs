@@ -17,9 +17,11 @@ namespace ExcelApp.Controllers
         
         public ActionResult Index()
         {
+
             return View();
 
         }
+
         private List<Store> allStore()
         {
 
@@ -40,7 +42,7 @@ namespace ExcelApp.Controllers
                 STORE_ATTRIBUTE_TYPE_CODE = 005,
                 STORE_ATTRIBUTE_TYPE_NAME = "Format Cluster MKT",
                 STORE_ATTRIBUTE_CODE = 2,
-                STORE_ATTRIBUTE_NAME = " BKK Premium"
+                STORE_ATTRIBUTE_NAME = "BKK Premium"
             };
             Store s2 = new Store()
             {
@@ -224,131 +226,131 @@ namespace ExcelApp.Controllers
             List<Biscuits> biscuitss = new List<Biscuits>();
             Biscuits b0 = new Biscuits()
             {
-                APO_CATEGORY = "Biscuits",
-                ID = 4893049120046,
-                NAME = "ริทซ์แซนวิชชีส 27ก",
-                DESC_J = "RITZ",
-                DESC_E = "Discontinue_Y",
-                Pack_Type_Description = "Single",
-                Segment_Description = "Sweet",
-                Subsegment_1_Description = "Sweet Biscuit",
-                Subsegment_2_Description = "Sandwich",
-                Subsegment_3_Description = "Normal",
-                Import_Local_Description = "Imported",
-                Brand = "RITZ",
-                Thai_Tourist_Description = "NO",
+                apoCategory = "Biscuits",
+                id = 4893049120046,
+                name = "ริทซ์แซนวิชชีส 27ก",
+                descJ = "RITZ",
+                descE = "Discontinue_Y",
+                packTypeDescription = "Single",
+                segmentDescription = "Sweet",
+                segment1Description = "Sweet Biscuit",
+                segment2Description = "Sandwich",
+                segment3Description = "Normal",
+                importLocalDescription = "Imported",
+                brand = "RITZ",
+                thaiTouristDescription = "NO",
             };
             Biscuits b1 = new Biscuits()
             {
-                APO_CATEGORY = "Biscuits",
-                ID = 7622300438661,
-                NAME = "ริทซ์แครกเกอร์รสมะนาว 118ก",
-                DESC_J = "RITZ",
-                DESC_E = "Active",
-                Pack_Type_Description = "Single",
-                Segment_Description = "Sweet",
-                Subsegment_1_Description = "Sweet Biscuit",
-                Subsegment_2_Description = "Flavored Biscuit",
-                Subsegment_3_Description = "Normal",
-                Import_Local_Description = "Imported",
-                Brand = "RITZ",
-                Thai_Tourist_Description = "NO",
+                apoCategory = "Biscuits",
+                id = 7622300438661,
+                name = "ริทซ์แครกเกอร์รสมะนาว 118ก",
+                descJ = "RITZ",
+                descE = "Active",
+                packTypeDescription = "Single",
+                segmentDescription = "Sweet",
+                segment1Description = "Sweet Biscuit",
+                segment2Description = "Flavored Biscuit",
+                segment3Description = "Normal",
+                importLocalDescription = "Imported",
+                brand = "RITZ",
+                thaiTouristDescription = "NO",
             };
             Biscuits b2 = new Biscuits()
             {
-                APO_CATEGORY = "Biscuits",
-                ID = 0044000012526,
-                NAME = "ริทซ์ขนมปังอบกรอบพร้อมชีส 162ก",
-                DESC_J = "RITZ",
-                DESC_E = "Active",
-                Pack_Type_Description = "Single",
-                Segment_Description = "Salty",
-                Subsegment_1_Description = "Savory Cracker",
-                Subsegment_2_Description = "Savory Cracker",
-                Subsegment_3_Description = "Normal",
-                Import_Local_Description = "Imported",
-                Brand = "RITZ",
-                Thai_Tourist_Description = "NO",
+                apoCategory = "Biscuits",
+                id = 0044000012526,
+                name = "ริทซ์ขนมปังอบกรอบพร้อมชีส 162ก",
+                descJ = "RITZ",
+                descE = "Active",
+                packTypeDescription = "Single",
+                segmentDescription = "Salty",
+                segment1Description = "Savory Cracker",
+                segment2Description = "Savory Cracker",
+                segment3Description = "Normal",
+                importLocalDescription = "Imported",
+                brand = "RITZ",
+                thaiTouristDescription = "NO",
             };
             Biscuits b3 = new Biscuits()
             {
-                APO_CATEGORY = "Biscuits",
-                ID = 0044000035457,
-                NAME = "นาบิสโก้ริชส์บิทส์ชีส 249ก",
-                DESC_J = "RITZ",
-                DESC_E = "Active",
-                Pack_Type_Description = "Single",
-                Segment_Description = "Salty",
-                Subsegment_1_Description = "Savory Cracker",
-                Subsegment_2_Description = "Savory Cracker",
-                Subsegment_3_Description = "Normal",
-                Import_Local_Description = "Imported",
-                Brand = "RITZ",
-                Thai_Tourist_Description = "NO",
+                apoCategory = "Biscuits",
+                id = 0044000035457,
+                name = "นาบิสโก้ริชส์บิทส์ชีส 249ก",
+                descJ = "RITZ",
+                descE = "Active",
+                packTypeDescription = "Single",
+                segmentDescription = "Salty",
+                segment1Description = "Savory Cracker",
+                segment2Description = "Savory Cracker",
+                segment3Description = "Normal",
+                importLocalDescription = "Imported",
+                brand = "RITZ",
+                thaiTouristDescription = "NO",
             };
             Biscuits b4 = new Biscuits()
             {
-                APO_CATEGORY = "Biscuits",
-                ID = 8992760211036,
-                NAME = "ริทซ์แครกเกอร์ 300ก",
-                DESC_J = "RITZ",
-                DESC_E = "Active",
-                Pack_Type_Description = "Single",
-                Segment_Description = "Salty",
-                Subsegment_1_Description = "Savory Cracker",
-                Subsegment_2_Description = "Savory Cracker",
-                Subsegment_3_Description = "Normal",
-                Import_Local_Description = "Imported",
-                Brand = "RITZ",
-                Thai_Tourist_Description = "NO",
+                apoCategory = "Biscuits",
+                id = 8992760211036,
+                name = "ริทซ์แครกเกอร์ 300ก",
+                descJ = "RITZ",
+                descE = "Active",
+                packTypeDescription = "Single",
+                segmentDescription = "Salty",
+                segment1Description = "Savory Cracker",
+                segment2Description = "Savory Cracker",
+                segment3Description = "Normal",
+                importLocalDescription = "Imported",
+                brand = "RITZ",
+                thaiTouristDescription = "NO",
             };
             Biscuits b5 = new Biscuits()
             {
-                APO_CATEGORY = "Biscuits",
-                ID = 4893049120084,
-                NAME = "ริทซ์แซนวิชชีส 27X12",
-                DESC_J = "RITZ",
-                DESC_E = "Active",
-                Pack_Type_Description = "Bulk",
-                Segment_Description = "Salty",
-                Subsegment_1_Description = "Savory Cracker",
-                Subsegment_2_Description = "Savory Cracker",
-                Subsegment_3_Description = "Normal",
-                Import_Local_Description = "Imported",
-                Brand = "RITZ",
-                Thai_Tourist_Description = "NO",
+                apoCategory = "Biscuits",
+                id = 4893049120084,
+                name = "ริทซ์แซนวิชชีส 27X12",
+                descJ = "RITZ",
+                descE = "Active",
+                packTypeDescription = "Bulk",
+                segmentDescription = "Salty",
+                segment1Description = "Savory Cracker",
+                segment2Description = "Savory Cracker",
+                segment3Description = "Normal",
+                importLocalDescription = "Imported",
+                brand = "RITZ",
+                thaiTouristDescription = "NO",
             };
             Biscuits b6 = new Biscuits()
             {
-                APO_CATEGORY = "Biscuits",
-                ID = 4893049120008,
-                NAME = "ริทซ์ชีส 118ก",
-                DESC_J = "RITZ",
-                DESC_E = "Active",
-                Pack_Type_Description = "Single",
-                Segment_Description = "Salty",
-                Subsegment_1_Description = "Savory Cracker",
-                Subsegment_2_Description = "Savory Cracker",
-                Subsegment_3_Description = "Normal",
-                Import_Local_Description = "Imported",
-                Brand = "RITZ",
-                Thai_Tourist_Description = "NO",
+                apoCategory = "Biscuits",
+                id = 4893049120008,
+                name = "ริทซ์ชีส 118ก",
+                descJ = "RITZ",
+                descE = "Active",
+                packTypeDescription = "Single",
+                segmentDescription = "Salty",
+                segment1Description = "Savory Cracker",
+                segment2Description = "Savory Cracker",
+                segment3Description = "Normal",
+                importLocalDescription = "Imported",
+                brand = "RITZ",
+                thaiTouristDescription = "NO",
             };
             Biscuits b7 = new Biscuits()
             {
-                APO_CATEGORY = "Biscuits",
-                ID = 8992760211029,
-                NAME = "ริทซ์แครกเกอร์ 100ก",
-                DESC_J = "RITZ",
-                DESC_E = "Active",
-                Pack_Type_Description = "Single",
-                Segment_Description = "Salty",
-                Subsegment_1_Description = "Savory Cracker",
-                Subsegment_2_Description = "Savory Cracker",
-                Subsegment_3_Description = "Normal",
-                Import_Local_Description = "Imported",
-                Brand = "RITZ",
-                Thai_Tourist_Description = "NO",
+                apoCategory = "Biscuits",
+                id = 8992760211029,
+                name = "ริทซ์แครกเกอร์ 100ก",
+                descJ = "RITZ",
+                descE = "Active",
+                packTypeDescription = "Single",
+                segmentDescription = "Salty",
+                segment1Description = "Savory Cracker",
+                segment2Description = "Savory Cracker",
+                segment3Description = "Normal",
+                importLocalDescription = "Imported",
+                brand = "RITZ",
+                thaiTouristDescription = "NO",
             };
 
 
@@ -561,7 +563,7 @@ namespace ExcelApp.Controllers
                 cell3.Style.Font.Bold = true;
                 cell3.Style.Font.Size = 12;
 
-                ws.Cells[1, 1].Value = "Target Table Name:";
+                ws.Cells[1, 1].Value = "Target Table name:";
                 ws.Cells[1, 2].Value = "CRC_MARKET_APO_HIER_XREF_LD";
 
                 ws.Cells[3, 1].Value = "Data Values";
@@ -641,7 +643,7 @@ namespace ExcelApp.Controllers
                 ws2Cell3.Style.Font.Bold = true;
                 ws2Cell3.Style.Font.Size = 12;
 
-                ws2.Cells[1, 1].Value = "Target Table Name:";
+                ws2.Cells[1, 1].Value = "Target Table name:";
                 ws2.Cells[1, 2].Value = "CRC_MARKET_APO_HIER_XREF_LD";
 
                 ws2.Cells[3, 1].Value = "Data Values";
@@ -680,8 +682,8 @@ namespace ExcelApp.Controllers
                 ws2.Cells.AutoFitColumns();
 
                 var memoryStream = package.GetAsByteArray();
-                var fileName = "attributes maintainance.xlsx";
-                return base.File(memoryStream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileName);
+                var filename = "attributes maintainance.xlsx";
+                return base.File(memoryStream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", filename);
             }
         }
 
@@ -691,9 +693,9 @@ namespace ExcelApp.Controllers
         //    {
         //        package.Workbook.Worksheets.Add("Sheet1");
         //        ExcelWorksheet ws = package.Workbook.Worksheets[1];
-        //        ws.Name = "Sheet1"; //Setting Sheet's name
+        //        ws.name = "Sheet1"; //Setting Sheet's name
         //        ws.Cells.Style.Font.Size = 9; //Default font size for whole sheet
-        //        ws.Cells.Style.Font.Name = "Arial"; //Default Font name for whole sheet 
+        //        ws.Cells.Style.Font.name = "Arial"; //Default Font name for whole sheet 
 
         //        ws.Cells["B1:C1"].Merge = true;
         //        ws.Cells[1, 1].Style.Font.Bold = true;
@@ -702,7 +704,7 @@ namespace ExcelApp.Controllers
         //        cell3.Style.Font.Bold = true;
         //        cell3.Style.Font.Size = 12;
 
-        //        ws.Cells[1, 1].Value = "Target Table Name:";
+        //        ws.Cells[1, 1].Value = "Target Table name:";
         //        ws.Cells[1, 2].Value = "CRC_MARKET_APO_HIER_XREF_LD";
                
         //        ws.Cells[3, 1].Value = "Data Values";
@@ -768,8 +770,8 @@ namespace ExcelApp.Controllers
 
         //        ws.Cells.AutoFitColumns();
         //        var memoryStream = package.GetAsByteArray();
-        //        var fileName = "Store Detail.xlsx";
-        //        return base.File(memoryStream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileName);
+        //        var filename = "Store Detail.xlsx";
+        //        return base.File(memoryStream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", filename);
         //    }
         //}
 
@@ -795,17 +797,17 @@ namespace ExcelApp.Controllers
 
                 int headerRow = 4;
                 ws.Cells[headerRow, 1].Value = "APO CATEGORY";
-                ws.Cells[headerRow, 2].Value = "ID";
-                ws.Cells[headerRow, 3].Value = "NAME";
-                ws.Cells[headerRow, 4].Value = "DESC_J";
-                ws.Cells[headerRow, 5].Value = "DESC_J";
+                ws.Cells[headerRow, 2].Value = "id";
+                ws.Cells[headerRow, 3].Value = "name";
+                ws.Cells[headerRow, 4].Value = "descJ";
+                ws.Cells[headerRow, 5].Value = "descJ";
                 ws.Cells[headerRow, 6].Value = "Pack Type Description";
                 ws.Cells[headerRow, 7].Value = "Segment Description";
                 ws.Cells[headerRow, 8].Value = "Subsegment 1 Description";
                 ws.Cells[headerRow, 9].Value = "Subsegment 2 Description";
                 ws.Cells[headerRow, 10].Value = "Subsegment 3 Description";
                 ws.Cells[headerRow, 11].Value = "Import Local Description";
-                ws.Cells[headerRow, 12].Value = "Brand";
+                ws.Cells[headerRow, 12].Value = "brand";
                 ws.Cells[headerRow, 13].Value = "Thai Tourist Description";
 
                 using (var range = ws.Cells[headerRow, 1, headerRow, 5])
@@ -828,20 +830,20 @@ namespace ExcelApp.Controllers
                 {
                     i++;
                     row++;
-                    ws.Cells[row, 1].Value = item.APO_CATEGORY;
-                    ws.Cells[row, 2].Value = string.Format("{0:0000000000000}", item.ID);
-                    ws.Cells[row, 3].Value = item.NAME;
-                    ws.Cells[row, 4].Value = item.DESC_J;
-                    ws.Cells[row, 5].Value = item.DESC_E;
-                    ws.Cells[row, 6].Value = item.Pack_Type_Description;
-                    ws.Cells[row, 7].Value = item.Segment_Description;
-                    ws.Cells[row, 8].Value = item.Subsegment_1_Description;
-                    ws.Cells[row, 9].Value = item.Subsegment_2_Description;
-                    ws.Cells[row, 10].Value = item.Subsegment_3_Description;
-                    ws.Cells[row, 11].Value = item.Import_Local_Description;
-                    ws.Cells[row, 12].Value = item.Brand;
+                    ws.Cells[row, 1].Value = item.apoCategory;
+                    ws.Cells[row, 2].Value = string.Format("{0:0000000000000}", item.id);
+                    ws.Cells[row, 3].Value = item.name;
+                    ws.Cells[row, 4].Value = item.descJ;
+                    ws.Cells[row, 5].Value = item.descE;
+                    ws.Cells[row, 6].Value = item.packTypeDescription;
+                    ws.Cells[row, 7].Value = item.segmentDescription;
+                    ws.Cells[row, 8].Value = item.segment1Description;
+                    ws.Cells[row, 9].Value = item.segment2Description;
+                    ws.Cells[row, 10].Value = item.segment3Description;
+                    ws.Cells[row, 11].Value = item.importLocalDescription;
+                    ws.Cells[row, 12].Value = item.brand;
                     var dataColumn13 = ws.Cells[row, 13];
-                    dataColumn13.Value = item.Thai_Tourist_Description;
+                    dataColumn13.Value = item.thaiTouristDescription;
                     dataColumn13.Style.HorizontalAlignment = ExcelHorizontalAlignment.Center;
                     dataColumn13.Style.Font.Color.SetColor(Color.Silver);
 
@@ -849,8 +851,8 @@ namespace ExcelApp.Controllers
 
                 ws.Cells.AutoFitColumns();
                 var memoryStream = package.GetAsByteArray();
-                var fileName = "BISCUITS.xlsx";
-                return base.File(memoryStream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileName);
+                var filename = "BISCUITS.xlsx";
+                return base.File(memoryStream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", filename);
             }
         }
 
@@ -959,8 +961,8 @@ namespace ExcelApp.Controllers
 
                 ws.Cells.AutoFitColumns();
                 var memoryStream = package.GetAsByteArray();
-                var fileName = "rms_hierachy_14mar2017.xlsx";
-                return base.File(memoryStream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileName);
+                var filename = "rms_hierachy_14mar2017.xlsx";
+                return base.File(memoryStream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", filename);
             }
         }
 
@@ -970,30 +972,50 @@ namespace ExcelApp.Controllers
             {
                 if(Path.GetExtension(file.FileName) == ".xlsx")
                 {
-                    string filename = file.FileName;
-                    string path = Server.MapPath("~/Upload/");
-                    file.SaveAs(path + filename);
-                    
+                    //string filename = file.Filename;
+                    //string path = Server.MapPath("~/Upload/");
+                    //file.SaveAs(path + filename);
 
-                    List<Subclass> s = new List<Subclass>();
+                    //List<Store> stores = new List<Store>();
+                    //List<Subclass> subclasss = new List<Subclass>();
+                    //List<Product> products = new List<Product>();
+
+                    List<Biscuits> biscuitss = new List<Biscuits>();
+                    List<CheckBiscuits> cb = new List<CheckBiscuits>();
+
                     using (var package = new ExcelPackage(file.InputStream))
                     {
-                        ExcelWorksheet ws = package.Workbook.Worksheets.First();
-                        int row = 5;
-                        for (row = 5; row <= ws.Dimension.End.Row; row++)
-                        {
-                            Subclass sub = new Subclass()
+                            ExcelWorksheet ws = package.Workbook.Worksheets.First();
+                            int row = 5;
+                            for (row = 5; row <= ws.Dimension.End.Row; row++)
                             {
-                                APO_SUBCLASS = Convert.ToInt64(ws.Cells[row, 1].Value),
-                                APO_SUBCLASS_NAME = Convert.ToString(ws.Cells[row, 2].Value),
-                                MARKET_DATA_SUBCATEGORY = Convert.ToString(ws.Cells[row, 3].Value),
-                                MARKET_DATA_CATEGORY = Convert.ToString(ws.Cells[row, 4].Value)
-                            };
-                            s.Add(sub);
-                        }
+                                Biscuits bis = new Biscuits()
+                                {
+                                    apoCategory = Convert.ToString(ws.Cells[row,1].Value),
+                                    id = Convert.ToInt64(ws.Cells[row,2].Value),
+                                    name = Convert.ToString(ws.Cells[row,3].Value),
+                                    descJ = Convert.ToString(ws.Cells[row,4].Value),
+                                    descE = Convert.ToString(ws.Cells[row,5].Value),
+                                    packTypeDescription = Convert.ToString(ws.Cells[row,6].Value),
+                                    segmentDescription = Convert.ToString(ws.Cells[row,7].Value),
+                                    segment1Description = Convert.ToString(ws.Cells[row,8].Value),
+                                    segment2Description = Convert.ToString(ws.Cells[row,9].Value),
+                                    segment3Description = Convert.ToString(ws.Cells[row,10].Value),
+                                    importLocalDescription = Convert.ToString(ws.Cells[row,11].Value),
+                                    brand = Convert.ToString(ws.Cells[row,12].Value),
+                                    thaiTouristDescription = Convert.ToString(ws.Cells[row,13].Value)
+
+                                };
+                                biscuitss.Add(bis);
+                            }
+                        cb.Add(new CheckBiscuits
+                        {
+                            biscuiutsAdd = biscuitss,
+                            biscuiutsList = allBiscuit()
+                        });
                     }
-                    ViewBag.Error = null;
-                    return View("Index");
+                    //ViewBag.Error = null;
+                    return View(cb);
                 }
                 else
                 {

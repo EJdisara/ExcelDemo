@@ -7,18 +7,20 @@ namespace ExcelApp.Models
 {
     public class Biscuits
     {
-        public string APO_CATEGORY { get; set; }
-        public long ID { get; set; }
-        public string NAME { get; set; }
-        public string DESC_J { get; set; }
-        public string DESC_E { get; set; }
-        public string Pack_Type_Description { get; set; }
-        public string Segment_Description { get; set; }
-        public string Subsegment_1_Description { get; set; }
-        public string Subsegment_2_Description { get; set; }
-        public string Subsegment_3_Description { get; set; }
-        public string Import_Local_Description { get; set; }
-        public string Brand { get; set; }
-        public string Thai_Tourist_Description { get; set; }
+        public string apoCategory { get; set; }
+        public long id { get; set; }
+        public string name { get; set; }
+        public string descJ { get; set; }
+        public string descE { get; set; }
+        public string packTypeDescription { get; set; }
+        public string segmentDescription { get; set; }
+        public string segment1Description { get; set; }
+        public string segment2Description { get; set; }
+        public string segment3Description { get; set; }
+        public string importLocalDescription { get; set; }
+        public string brand { get; set; }
+        public string thaiTouristDescription { get; set; }
+
+        public List<Biscuits> biscuiutsList { get; set; }
     }
 }

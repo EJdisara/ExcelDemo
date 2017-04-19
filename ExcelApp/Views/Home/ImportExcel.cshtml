@@ -1,0 +1,299 @@
+﻿@model IEnumerable<ExcelApp.Models.CheckBiscuits>
+
+@{
+    ViewBag.Title = "ImportExcel";
+}
+
+<h2>ImportExcel</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>APO CATEGORY</th>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>DESC_J</th>
+        <th>DESC_E</th>
+        <th>Pack Type Description</th>
+        <th>Segment Description</th>
+        <th>Subsegment 1 Description</th>
+        <th>Subsegment 2 Description</th>
+        <th>Subsegment 3 Description</th>
+        <th>Import Local Description</th>
+        <th>Brand</th>
+        <th>Thai Tourist Description</th>
+        <th>##</th>
+    </tr>
+@{
+
+    foreach (var checkItem in Model)
+    {
+
+        foreach (var item in checkItem.biscuiutsAdd)
+        {
+            <tr id="row_@item.id">
+                <td>@item.apoCategory</td>
+                <td>@item.id</td>
+                <td>@item.name</td>
+
+                @{ 
+                    bool isContainInList = false;
+                    foreach (var bisCheck in checkItem.biscuiutsList)
+                    {
+                        if (bisCheck.descJ == item.descJ)
+                        {
+                            isContainInList = true;
+                            break;
+                        }
+                    }
+                    if (isContainInList == false)
+                    {
+                        <td style="background:red;">
+                            <p id="itemData_@item.id">@item.descJ</p>
+                            <button onclick="editRow(@item.id)" id="edit_button_@item.id">Edit</button>
+
+                            <div id="divRow_@item.id" style="display:none;">
+                            <input type="text" value="@item.descJ" id="descJ_text_@item.id"/>
+                            <button onclick="saveRow(@item.id)" id="save_button_@item.id">Save</button>
+                            <button onclick="cancelRow(@item.id)" id="cancel_button_@item.id"><i class="glyphicon glyphicon-remove"></i></button>
+                            </div>
+                        </td>
+
+                    }
+                    else
+                    {
+                        <td>@item.descJ</td>
+                    }
+
+                    foreach (var bisCheck in checkItem.biscuiutsList)
+                    {
+                        if (bisCheck.descE == item.descE)
+                        {
+                            isContainInList = true;
+                            break;
+                        }
+                    }
+                    if(isContainInList == false)
+                    {
+                        <td style="background:red;">
+                            <p id="itemData_2">@item.descE</p>
+                            <button onclick="editRow('2')" id="edit_button_2">Edit</button>
+
+                            <div id="divRow_2" style="display:none;">
+                                <input type="text" value="@item.descE" id="descJ_text_2" />
+                                <button onclick="saveRow('2')" id="save_button_2">Save</button>
+                                <button onclick="cancelRow('2')" id="cancel_button_2"><i class="glyphicon glyphicon-remove"></i></button>
+                            </div>
+                        </td>
+                    }
+                    else
+                    {
+                        <td>@item.descE</td>
+
+                    }
+
+                    foreach (var bisCheck in checkItem.biscuiutsList)
+                    {
+                        if (bisCheck.packTypeDescription == item.packTypeDescription)
+                        {
+                            isContainInList = true;
+                            break;
+                        }
+                    }
+                    if (isContainInList == false)
+                    {
+                        <td style="background:red;">
+                            @item.packTypeDescription
+                        </td>
+                    }
+                    else
+                    {
+                        <td>@item.packTypeDescription</td>
+
+                    }
+
+                    foreach (var bisCheck in checkItem.biscuiutsList)
+                    {
+                        if (bisCheck.segmentDescription == item.segmentDescription)
+                        {
+                            isContainInList = true;
+                            break;
+                        }
+                    }
+                    if (isContainInList == false)
+                    {
+                        <td style="background:red;">
+                            @item.segmentDescription
+                        </td>
+                    }
+                    else
+                    {
+                        <td>@item.segmentDescription</td>
+
+                    }
+
+                    foreach (var bisCheck in checkItem.biscuiutsList)
+                    {
+                        if (bisCheck.segment1Description == item.segment1Description)
+                        {
+                            isContainInList = true;
+                            break;
+                        }
+                    }
+                    if (isContainInList == false)
+                    {
+                        <td style="background:red;">
+                            @item.segment1Description
+                        </td>
+                    }
+                    else
+                    {
+                        <td>@item.segment1Description</td>
+
+                    }
+
+                    foreach (var bisCheck in checkItem.biscuiutsList)
+                    {
+                        if (bisCheck.segment2Description == item.segment2Description)
+                        {
+                            isContainInList = true;
+                            break;
+                        }
+                    }
+                    if (isContainInList == false)
+                    {
+                        <td style="background:red;">
+                            @item.segment2Description
+                        </td>
+                    }
+                    else
+                    {
+                        <td>@item.segment2Description</td>
+
+                    }
+
+                    foreach (var bisCheck in checkItem.biscuiutsList)
+                    {
+                        if (bisCheck.segment3Description == item.segment3Description)
+                        {
+                            isContainInList = true;
+                            break;
+                        }
+                    }
+                    if (isContainInList == false)
+                    {
+                        <td style="background:red;">
+                            @item.segment3Description
+                        </td>
+                    }
+                    else
+                    {
+                        <td>@item.segment3Description</td>
+
+                    }
+
+                    foreach (var bisCheck in checkItem.biscuiutsList)
+                    {
+                        if (bisCheck.importLocalDescription == item.importLocalDescription)
+                        {
+                            isContainInList = true;
+                            break;
+                        }
+                    }
+                    if (isContainInList == false)
+                    {
+                        <td style="background:red;">
+                            @item.importLocalDescription
+                        </td>
+                    }
+                    else
+                    {
+                        <td>@item.importLocalDescription</td>
+
+                    }
+
+                    foreach (var bisCheck in checkItem.biscuiutsList)
+                    {
+                        if (bisCheck.brand == item.brand)
+                        {
+                            isContainInList = true;
+                            break;
+                        }
+                    }
+                    if (isContainInList == false)
+                    {
+                        <td style="background:red;">
+                            @item.brand
+                        </td>
+                    }
+                    else
+                    {
+                        <td>@item.brand</td>
+
+                    }
+                    foreach (var bisCheck in checkItem.biscuiutsList)
+                    {
+                        if (bisCheck.thaiTouristDescription == item.thaiTouristDescription)
+                        {
+                            isContainInList = true;
+                            break;
+                        }
+                    }
+                    if (isContainInList == false)
+                    {
+                        <td style="background:red;">
+                            @item.thaiTouristDescription
+                        </td>
+                    }
+                    else
+                    {
+                        <td>@item.thaiTouristDescription</td>
+
+                    }
+                <td>
+                <button onclick="addRow(@item.id)" id="add_button_@item.id">Add</button> 
+                <button onclick="DeleteRow(@item.id)">Delete</button>
+                </td>
+                }
+            </tr>
+            }
+        }
+    }
+</table>
+<script>
+    function addRow(id){
+        document.getElementById("add_button_" + id).style.display = "none";
+        document.getElementById("edit_button_" + id).style.display = "none";
+    }
+
+    function editRow(id) {
+        document.getElementById("edit_button_" + id).style.display = "none";
+        document.getElementById("itemData_" + id).style.display = "none";
+        document.getElementById("divRow_" + id).style.display = "block";
+
+    }
+
+    function saveRow(id) {
+        var descJ_val = document.getElementById("descJ_text_" + id).value;
+        document.getElementById("itemData_" + id).innerHTML = descJ_val;
+
+        document.getElementById("itemData_" + id).style.display = "block";
+        document.getElementById("edit_button_" + id).style.display = "block";
+        document.getElementById("divRow_" + id).style.display = "none";
+       
+    }
+
+    function cancelRow(id)
+    {
+        document.getElementById("itemData_" + id).style.display = "block";
+        document.getElementById("divRow_" + id).style.display = "none";
+        document.getElementById("edit_button_" + id).style.display = "block";
+    }
+
+    function DeleteRow(id)
+    {
+        document.getElementById("row_"+id+"").outerHTML="";
+    }
+
+</script>
+
+
