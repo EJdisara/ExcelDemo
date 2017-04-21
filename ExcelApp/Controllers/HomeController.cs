@@ -976,10 +976,6 @@ namespace ExcelApp.Controllers
                     //string path = Server.MapPath("~/Upload/");
                     //file.SaveAs(path + filename);
 
-                    //List<Store> stores = new List<Store>();
-                    //List<Subclass> subclasss = new List<Subclass>();
-                    //List<Product> products = new List<Product>();
-
                     List<Biscuits> biscuitss = new List<Biscuits>();
                     List<CheckBiscuits> cb = new List<CheckBiscuits>();
 

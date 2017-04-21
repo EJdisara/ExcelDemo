@@ -23,277 +23,280 @@
         <th>Thai Tourist Description</th>
         <th>##</th>
     </tr>
-@{
-
-    foreach (var checkItem in Model)
-    {
-
-        foreach (var item in checkItem.biscuiutsAdd)
+    @{
+        int i = 0;
+        foreach (var checkItem in Model)
         {
-            <tr id="row_@item.id">
-                <td>@item.apoCategory</td>
-                <td>@item.id</td>
-                <td>@item.name</td>
 
-                @{ 
-                    bool isContainInList = false;
-                    foreach (var bisCheck in checkItem.biscuiutsList)
-                    {
-                        if (bisCheck.descJ == item.descJ)
+            foreach (var item in checkItem.biscuiutsAdd)
+            {
+                i++;
+                <tr id="row_@i">
+                    <td>@item.apoCategory</td>
+                    <td>@item.id</td>
+                    <td>@item.name</td>
+                    @{ bool isBool = false;
+                        foreach (var bList in checkItem.biscuiutsList)
                         {
-                            isContainInList = true;
-                            break;
+                            if (item.descJ == bList.descJ)
+                            {
+                                isBool = true;
+                            }
                         }
-                    }
-                    if (isContainInList == false)
-                    {
-                        <td style="background:red;">
-                            <p id="itemData_@item.id">@item.descJ</p>
-                            <button onclick="editRow(@item.id)" id="edit_button_@item.id">Edit</button>
-
-                            <div id="divRow_@item.id" style="display:none;">
-                            <input type="text" value="@item.descJ" id="descJ_text_@item.id"/>
-                            <button onclick="saveRow(@item.id)" id="save_button_@item.id">Save</button>
-                            <button onclick="cancelRow(@item.id)" id="cancel_button_@item.id"><i class="glyphicon glyphicon-remove"></i></button>
-                            </div>
-                        </td>
-
-                    }
-                    else
-                    {
-                        <td>@item.descJ</td>
-                    }
-
-                    foreach (var bisCheck in checkItem.biscuiutsList)
-                    {
-                        if (bisCheck.descE == item.descE)
+                        if (isBool == false)
                         {
-                            isContainInList = true;
-                            break;
+                            <td style="background:red" class="tdColor_@i">
+                                <p id="td_4_@i">@item.descJ</p>
+                                <button onclick="edit('4_'+@i)" id="editTd_4_@i" class="btnHide_@i"><span class="glyphicon glyphicon-pencil">Edit</span></button>
+                                <div id="div_4_@i" style="display:none;">
+                                    <input type="text" value="@item.descJ" id="data_4_@i" />
+                                    <button onclick="saveColumn('4_'+@i)">save</button>
+                                    <button onclick="cancelColumn('4_'+@i)">cancel</button>
+                                </div>
+                            </td>
                         }
-                    }
-                    if(isContainInList == false)
-                    {
-                        <td style="background:red;">
-                            <p id="itemData_2">@item.descE</p>
-                            <button onclick="editRow('2')" id="edit_button_2">Edit</button>
-
-                            <div id="divRow_2" style="display:none;">
-                                <input type="text" value="@item.descE" id="descJ_text_2" />
-                                <button onclick="saveRow('2')" id="save_button_2">Save</button>
-                                <button onclick="cancelRow('2')" id="cancel_button_2"><i class="glyphicon glyphicon-remove"></i></button>
-                            </div>
-                        </td>
-                    }
-                    else
-                    {
-                        <td>@item.descE</td>
-
-                    }
-
-                    foreach (var bisCheck in checkItem.biscuiutsList)
-                    {
-                        if (bisCheck.packTypeDescription == item.packTypeDescription)
+                        else
                         {
-                            isContainInList = true;
-                            break;
+                            <td>@item.descJ</td>
                         }
-                    }
-                    if (isContainInList == false)
-                    {
-                        <td style="background:red;">
-                            @item.packTypeDescription
-                        </td>
-                    }
-                    else
-                    {
-                        <td>@item.packTypeDescription</td>
+                        //set bool is false
+                        isBool = false;
 
-                    }
-
-                    foreach (var bisCheck in checkItem.biscuiutsList)
-                    {
-                        if (bisCheck.segmentDescription == item.segmentDescription)
+                        foreach (var bList in checkItem.biscuiutsList)
                         {
-                            isContainInList = true;
-                            break;
+                            if (item.descE == bList.descE)
+                            {
+                                isBool = true;
+                            }
                         }
-                    }
-                    if (isContainInList == false)
-                    {
-                        <td style="background:red;">
-                            @item.segmentDescription
-                        </td>
-                    }
-                    else
-                    {
-                        <td>@item.segmentDescription</td>
-
-                    }
-
-                    foreach (var bisCheck in checkItem.biscuiutsList)
-                    {
-                        if (bisCheck.segment1Description == item.segment1Description)
+                        if (isBool == false)
                         {
-                            isContainInList = true;
-                            break;
+                            <td style="background:red" class="tdColor_@i">
+                                <p id="td_5_@i">@item.descE</p>
+                                <button onclick="edit('5_'+@i)" id="editTd_5_@i" class="btnHide_@i"><span class="glyphicon glyphicon-pencil">Edit</span></button>
+                                <div id="div_5_@i" style="display:none;">
+                                    <input type="text" value="@item.descE" id="data_5_@i" />
+                                    <button onclick="saveColumn('5_'+@i)">save</button>
+                                    <button onclick="cancelColumn('5_'+@i)">cancel</button>
+                                </div>
+                            </td>
                         }
-                    }
-                    if (isContainInList == false)
-                    {
-                        <td style="background:red;">
-                            @item.segment1Description
-                        </td>
-                    }
-                    else
-                    {
-                        <td>@item.segment1Description</td>
-
-                    }
-
-                    foreach (var bisCheck in checkItem.biscuiutsList)
-                    {
-                        if (bisCheck.segment2Description == item.segment2Description)
+                        else
                         {
-                            isContainInList = true;
-                            break;
+                            <td>@item.descE</td>
                         }
-                    }
-                    if (isContainInList == false)
-                    {
-                        <td style="background:red;">
-                            @item.segment2Description
-                        </td>
-                    }
-                    else
-                    {
-                        <td>@item.segment2Description</td>
+                        isBool = false;
 
-                    }
-
-                    foreach (var bisCheck in checkItem.biscuiutsList)
-                    {
-                        if (bisCheck.segment3Description == item.segment3Description)
+                        foreach (var bList in checkItem.biscuiutsList)
                         {
-                            isContainInList = true;
-                            break;
+                            if (item.packTypeDescription == bList.packTypeDescription)
+                            {
+                                isBool = true;
+                            }
                         }
-                    }
-                    if (isContainInList == false)
-                    {
-                        <td style="background:red;">
-                            @item.segment3Description
-                        </td>
-                    }
-                    else
-                    {
-                        <td>@item.segment3Description</td>
-
-                    }
-
-                    foreach (var bisCheck in checkItem.biscuiutsList)
-                    {
-                        if (bisCheck.importLocalDescription == item.importLocalDescription)
+                        if (isBool == false)
                         {
-                            isContainInList = true;
-                            break;
+                            <td style="background:red" class="tdColor_@i">
+                                <p id="td_6_@i">@item.packTypeDescription</p>
+                                <button onclick="edit('6_'+@i)" id="editTd_6_@i" class="btnHide_@i"><span class="glyphicon glyphicon-pencil">Edit</span></button>
+                                <div id="div_6_@i" style="display:none;">
+                                    <input type="text" value="@item.packTypeDescription" id="data_6_@i" />
+                                    <button onclick="saveColumn('6_'+@i)">save</button>
+                                    <button onclick="cancelColumn('6_'+@i)">cancel</button>
+                                </div>
+                            </td>
                         }
-                    }
-                    if (isContainInList == false)
-                    {
-                        <td style="background:red;">
-                            @item.importLocalDescription
-                        </td>
-                    }
-                    else
-                    {
-                        <td>@item.importLocalDescription</td>
-
-                    }
-
-                    foreach (var bisCheck in checkItem.biscuiutsList)
-                    {
-                        if (bisCheck.brand == item.brand)
+                        else
                         {
-                            isContainInList = true;
-                            break;
+                            <td>@item.packTypeDescription</td>
                         }
-                    }
-                    if (isContainInList == false)
-                    {
-                        <td style="background:red;">
-                            @item.brand
-                        </td>
-                    }
-                    else
-                    {
-                        <td>@item.brand</td>
+                        isBool = false;
 
-                    }
-                    foreach (var bisCheck in checkItem.biscuiutsList)
-                    {
-                        if (bisCheck.thaiTouristDescription == item.thaiTouristDescription)
+                        foreach (var bList in checkItem.biscuiutsList)
                         {
-                            isContainInList = true;
-                            break;
+                            if (item.segmentDescription == bList.segmentDescription)
+                            {
+                                isBool = true;
+                            }
                         }
-                    }
-                    if (isContainInList == false)
-                    {
-                        <td style="background:red;">
-                            @item.thaiTouristDescription
-                        </td>
-                    }
-                    else
-                    {
-                        <td>@item.thaiTouristDescription</td>
+                        if (isBool == false)
+                        {
+                            <td style="background:red" class="tdColor_@i">
+                                <p id="td_7_@i">@item.segmentDescription</p>
+                                <button onclick="edit('7_'+@i)" id="editTd_7_@i" class="btnHide_@i"><span class="glyphicon glyphicon-pencil">Edit</span></button>
+                                <div id="div_7_@i" style="display:none;">
+                                    <input type="text" value="@item.segmentDescription" id="data_7_@i" />
+                                    <button onclick="saveColumn('7_'+@i)">save</button>
+                                    <button onclick="cancelColumn('7_'+@i)">cancel</button>
+                                </div>
+                            </td>
+                        }
+                        else
+                        {
+                            <td>@item.segmentDescription</td>
+                        }
+                        isBool = false;
 
+                        foreach (var bList in checkItem.biscuiutsList)
+                        {
+                            if (item.segment1Description == bList.segment1Description)
+                            {
+                                isBool = true;
+                            }
+                        }
+                        if (isBool == false)
+                        {
+                            <td style="background:red" class="tdColor_@i">
+                                <p id="td_8_@i">@item.segment1Description</p>
+                                <button onclick="edit('8_'+@i)" id="editTd_8_@i" class="btnHide_@i"><span class="glyphicon glyphicon-pencil">Edit</span></button>
+                                <div id="div_8_@i" style="display:none;">
+                                    <input type="text" value="@item.segment1Description" id="data_8_@i" />
+                                    <button onclick="saveColumn('8_'+@i)">save</button>
+                                    <button onclick="cancelColumn('8_'+@i)">cancel</button>
+                                </div>
+                            </td>
+                        }
+                        else
+                        {
+                            <td>@item.segment1Description</td>
+                        }
+                        isBool = false;
+
+                        foreach (var bList in checkItem.biscuiutsList)
+                        {
+                            if (item.segment2Description == bList.segment2Description)
+                            {
+                                isBool = true;
+                            }
+                        }
+                        if (isBool == false)
+                        {
+                            <td style="background:red" class="tdColor_@i">
+                                <p id="td_9_@i">@item.segment2Description</p>
+                                <button onclick="edit('9_'+@i)" id="editTd_9_@i" class="btnHide_@i"><span class="glyphicon glyphicon-pencil">Edit</span></button>
+                                <div id="div_9_@i" style="display:none;">
+                                    <input type="text" value="@item.segment2Description" id="data_9_@i" />
+                                    <button onclick="saveColumn('9_'+@i)">save</button>
+                                    <button onclick="cancelColumn('9_'+@i)">cancel</button>
+                                </div>
+                            </td>
+                        }
+                        else
+                        {
+                            <td>@item.segment2Description</td>
+                        }
+                        isBool = false;
+
+                        foreach (var bList in checkItem.biscuiutsList)
+                        {
+                            if (item.segment3Description == bList.segment3Description)
+                            {
+                                isBool = true;
+                            }
+                        }
+                        if (isBool == false)
+                        {
+                            <td style="background:red" class="tdColor_@i">
+                                <p id="td_10_@i">@item.segment3Description</p>
+                                <button onclick="edit('10_'+@i)" id="editTd_10_@i" class="btnHide_@i"><span class="glyphicon glyphicon-pencil">Edit</span></button>
+                                <div id="div_10_@i" style="display:none;">
+                                    <input type="text" value="@item.segment3Description" id="data_10_@i" />
+                                    <button onclick="saveColumn('10_'+@i)">save</button>
+                                    <button onclick="cancelColumn('10_'+@i)">cancel</button>
+                                </div>
+                            </td>
+                        }
+                        else
+                        {
+                            <td>@item.segment3Description</td>
+                        }
+                        isBool = false;
+
+                        foreach (var bList in checkItem.biscuiutsList)
+                        {
+                            if (item.importLocalDescription == bList.importLocalDescription)
+                            {
+                                isBool = true;
+                            }
+                        }
+                        if (isBool == false)
+                        {
+                            <td style="background:red" class="tdColor_@i">
+                                <p id="td_11_@i">@item.importLocalDescription</p>
+                                <button onclick="edit('11_'+@i)" id="editTd_11_@i" class="btnHide_@i"><span class="glyphicon glyphicon-pencil">Edit</span></button>
+                                <div id="div_11_@i" style="display:none;">
+                                    <input type="text" value="@item.importLocalDescription" id="data_11_@i" />
+                                    <button onclick="saveColumn('11_'+@i)">save</button>
+                                    <button onclick="cancelColumn('11_'+@i)">cancel</button>
+                                </div>
+                            </td>
+                        }
+                        else
+                        {
+                            <td>@item.importLocalDescription</td>
+                        }
+                        isBool = false;
+
+
+                        foreach (var bList in checkItem.biscuiutsList)
+                        {
+                            if (item.brand == bList.brand)
+                            {
+                                isBool = true;
+                            }
+                        }
+                        if (isBool == false)
+                        {
+                            <td style="background:red" class="tdColor_@i">
+                                <p id="td_12_@i">@item.brand</p>
+                                <button onclick="edit('12_'+@i)" id="editTd_12_@i" class="btnHide_@i"><span class="glyphicon glyphicon-pencil">Edit</span></button>
+                                <div id="div_12_@i" style="display:none;">
+                                    <input type="text" value="@item.brand" id="data_12_@i" />
+                                    <button onclick="saveColumn('12_'+@i)">save</button>
+                                    <button onclick="cancelColumn('12_'+@i)">cancel</button>
+                                </div>
+                            </td>
+                        }
+                        else
+                        {
+                            <td>@item.brand</td>
+                        }
+                        isBool = false;
+
+                        foreach (var bList in checkItem.biscuiutsList)
+                        {
+                            if (item.thaiTouristDescription == bList.thaiTouristDescription)
+                            {
+                                isBool = true;
+                            }
+                        }
+                        if (isBool == false)
+                        {
+                            <td style="background:red" class="tdColor_@i">
+                                <p id="td_13_@i">@item.thaiTouristDescription</p>
+                                <button onclick="edit('13_'+@i)" id="editTd_13_@i" class="btnHide_@i"><span class="glyphicon glyphicon-pencil">Edit</span></button>
+                                <div id="div_13_@i" style="display:none;">
+                                    <input type="text" value="@item.thaiTouristDescription" id="data_13_@i" />
+                                    <button onclick="saveColumn('13_'+@i)">save</button>
+                                    <button onclick="cancelColumn('13_'+@i)">cancel</button>
+                                </div>
+                            </td>
+                        }
+                        else
+                        {
+                            <td>@item.thaiTouristDescription</td>
+                        }
+                        isBool = false;
                     }
-                <td>
-                <button onclick="addRow(@item.id)" id="add_button_@item.id">Add</button> 
-                <button onclick="DeleteRow(@item.id)">Delete</button>
-                </td>
-                }
-            </tr>
-            }
-        }
+                    <td>
+                        <button onclick="addRow(@i)" id="addRow_@i">Add</button>
+                        @*<button onclick="editRow(@i)" id="editRow_@i">Edit</button>*@
+                        <button onclick="deleteRow(@i)" id="deleteRow_@i">Delete</button>
+                    </td>
+                </tr>
+                            }
+                        }
     }
 </table>
-<script>
-    function addRow(id){
-        document.getElementById("add_button_" + id).style.display = "none";
-        document.getElementById("edit_button_" + id).style.display = "none";
-    }
-
-    function editRow(id) {
-        document.getElementById("edit_button_" + id).style.display = "none";
-        document.getElementById("itemData_" + id).style.display = "none";
-        document.getElementById("divRow_" + id).style.display = "block";
-
-    }
-
-    function saveRow(id) {
-        var descJ_val = document.getElementById("descJ_text_" + id).value;
-        document.getElementById("itemData_" + id).innerHTML = descJ_val;
-
-        document.getElementById("itemData_" + id).style.display = "block";
-        document.getElementById("edit_button_" + id).style.display = "block";
-        document.getElementById("divRow_" + id).style.display = "none";
-       
-    }
-
-    function cancelRow(id)
-    {
-        document.getElementById("itemData_" + id).style.display = "block";
-        document.getElementById("divRow_" + id).style.display = "none";
-        document.getElementById("edit_button_" + id).style.display = "block";
-    }
-
-    function DeleteRow(id)
-    {
-        document.getElementById("row_"+id+"").outerHTML="";
-    }
-
-</script>
 
 
